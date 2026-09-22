@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Falta de Cronograma Claro - Organizador de Estudos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-container {
+      max-width: 800px;
+      width: 100%;
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 36px;
+      box-shadow: var(--shadow);
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .page-header h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 12px;
+    }
+    .content-section {
+      margin-top: 28px;
+    }
+    .content-section h2 {
+      font-size: 1.3rem;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+    .content-section p, .content-section ul {
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .content-section ul {
+      padding-left: 20px;
+    }
+    .schedule-example {
+      background: var(--primary-light);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-container">
+    <a href="index.html" class="back-btn">&larr; Voltar ao Painel</a>
+
+    <header class="page-header" style="text-align: left; margin-bottom: 20px;">
+      <span class="card-tag tag-problema">Problema Real</span>
+      <h1>Falta de um cronograma claro</h1>
+      <p>Saiba como construir um planejamento semanal estruturado que reduz a fadiga de decisão.</p>
+    </header>
+
+    <main>
+      <section class="content-section">
+        <h2>A Fadiga de Decisão</h2>
+        <p>Sentar à mesa para estudar sem saber previamente qual matéria abrir gera desgaste mental imediato. Ter um cronograma predefinido elimina a hesitação e economiza energia para o aprendizado real.</p>
+      </section>
+
+      <section class="content-section">
+        <h2>Como Montar um Cronograma Eficiente</h2>
+        <ul>
+          <li><strong>Mapeamento de Horários Fixos:</strong> Marque seus compromissos inegociáveis (aulas, trabalho, refeições, sono).</li>
+          <li><strong>Distribuição por Matérias:</strong> Intercale matérias com alto grau de dificuldade com conteúdos mais leves ao longo dos dias.</li>
+          <li><strong>Espaço para Imprevistos:</strong> Reserve blocos livres para compensar atrasos eventuais da semana.</li>
+        </ul>
+      </section>
+
+      <section class="content-section">
+        <h2>Exemplo Prático de Rotina</h2>
+        <div class="schedule-example">
+          <p><strong>Segunda:</strong> Exatas (Teoria + 10 Exercícios)</p>
+          <p><strong>Terça:</strong> Humanas (Leitura ativa + Resumo)</p>
+          <p><strong>Quarta:</strong> Biológicas (Flashcards + Revisão)</p>
+          <p><strong>Quinta:</strong> Redação/Prática (Elaboração de texto)</p>
+          <p><strong>Sexta:</strong> Revisão dos erros da semana</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>

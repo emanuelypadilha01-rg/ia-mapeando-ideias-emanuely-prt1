@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sensação de Baixa Produtividade - Organizador de Estudos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-container {
+      max-width: 800px;
+      width: 100%;
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 36px;
+      box-shadow: var(--shadow);
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .page-header h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 12px;
+    }
+    .content-section {
+      margin-top: 28px;
+    }
+    .content-section h2 {
+      font-size: 1.3rem;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+    .content-section p, .content-section ul {
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .content-section ul {
+      padding-left: 20px;
+    }
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    .comparison-table th, .comparison-table td {
+      padding: 12px;
+      border: 1px solid var(--primary-light);
+      text-align: left;
+      font-size: 0.9rem;
+    }
+    .comparison-table th {
+      background: var(--primary-light);
+      color: var(--primary-color);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-container">
+    <a href="index.html" class="back-btn">&larr; Voltar ao Painel</a>
+
+    <header class="page-header" style="text-align: left; margin-bottom: 20px;">
+      <span class="card-tag tag-insatisfacao">Insatisfação</span>
+      <h1>Sensação de baixa produtividade</h1>
+      <p>Como transitar do estudo passivo para técnicas ativas que fixam o conhecimento de verdade.</p>
+    </header>
+
+    <main>
+      <section class="content-section">
+        <h2>Estudo Passivo vs. Estudo Ativo</h2>
+        <p>A ilusão de competência ocorre quando lemos um texto várias vezes ou grifamos páginas inteiras. Isso passa a falsa sensação de aprendizado, mas a retenção de longo prazo continua muito baixa.</p>
+        
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Estudo Passivo (Pouco Eficiente)</th>
+              <th>Estudo Ativo (Alta Retenção)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Reler resumos prontos ou livros</td>
+              <td>Explicar o assunto com as próprias palavras (Técnica Feynman)</td>
+            </tr>
+            <tr>
+              <td>Apenas grifar partes importantes</td>
+              <td>Resolver exercícios e flashcards de fixação</td>
+            </tr>
+            <tr>
+              <td>Assistir aulas sem tomar notas próprias</td>
+              <td>Fazer mapas mentais e esquemas práticos sem consultar o texto</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="content-section">
+        <h2>Como Medir Produtividade Real</h2>
+        <ul>
+          <li><strong>Métricas de Desempenho:</strong> Avalie seu avanço por quantidade de questões resolvidas e taxa de acerto, não apenas pelo número de horas sentado.</li>
+          <li><strong>Repetição Espaçada:</strong> Revise tópicos estudados em intervalos crescentes (1 dia, 7 dias, 30 dias) para manter o conteúdo ativo na memória.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>

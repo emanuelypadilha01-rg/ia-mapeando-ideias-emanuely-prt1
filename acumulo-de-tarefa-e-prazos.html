@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acúmulo de Tarefas e Prazos - Organizador de Estudos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-container {
+      max-width: 800px;
+      width: 100%;
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 36px;
+      box-shadow: var(--shadow);
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .page-header h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 12px;
+    }
+    .content-section {
+      margin-top: 28px;
+    }
+    .content-section h2 {
+      font-size: 1.3rem;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+    .content-section p, .content-section ul {
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .content-section ul {
+      padding-left: 20px;
+    }
+    .matrix-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .matrix-box {
+      background: var(--primary-light);
+      padding: 16px;
+      border-radius: 8px;
+      border-left: 4px solid var(--primary-color);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-container">
+    <a href="index.html" class="back-btn">&larr; Voltar ao Painel</a>
+
+    <header class="page-header" style="text-align: left; margin-bottom: 20px;">
+      <span class="card-tag tag-problema">Problema Real</span>
+      <h1>Acúmulo de tarefas e prazos</h1>
+      <p>Aprenda a gerenciar entregas e conteúdos para não acumular matérias até a véspera das avaliações.</p>
+    </header>
+
+    <main>
+      <section class="content-section">
+        <h2>O Efeito Bola de Neve</h2>
+        <p>Adiar pequenas entregas gera o acúmulo de matérias. Isso sobrecarrega a memória de curto prazo e resulta em estudos superficiais e altos níveis de estresse antes de provas e prazos importantes.</p>
+      </section>
+
+      <section class="content-section">
+        <h2>Matriz de Priorização (Eisenhower)</h2>
+        <p>Divida as atividades da sua rotina para evitar que tarefas importantes se tornem urgentes:</p>
+        
+        <div class="matrix-grid">
+          <div class="matrix-box">
+            <strong>1. Importante & Urgente</strong>
+            <p>Fazer imediatamente (Ex: Prova amanhã, trabalho do dia).</p>
+          </div>
+          <div class="matrix-box">
+            <strong>2. Importante & Não Urgente</strong>
+            <p>Agendar com antecedência (Ex: Revisão semanal, leitura de livros).</p>
+          </div>
+          <div class="matrix-box">
+            <strong>3. Não Importante & Urgente</strong>
+            <p>Simplificar ou delegar (Ex: E-mails secundários, avisos).</p>
+          </div>
+          <div class="matrix-box">
+            <strong>4. Não Importante & Não Urgente</strong>
+            <p>Eliminar da rotina crítica de estudos.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2>Estratégias de Resolução</h2>
+        <ul>
+          <li><strong>Mapeamento de Prazos:</strong> Registre todas as datas finais em um único local visível no início da semana ou do mês.</li>
+          <li><strong>Dividir para Conquistar:</strong> Desmembre grandes trabalhos ou extensos capítulos de matérias em pequenas tarefas diárias.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>
